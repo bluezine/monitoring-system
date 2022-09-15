@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: monitoring-system
+  datasource:
+    url: jdbc:mariadb://###:3306/monitoring
+    hikari:
+      driver-class-name: org.mariadb.jdbc.Driver
+      username: ###
+      password: ###
+
+logging:
+  level:
+    root: info
