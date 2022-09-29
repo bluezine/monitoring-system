@@ -1,4 +1,4 @@
-package kr.co.bluezine.monitoringsystem;
+package kr.co.bluezine.monitoring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
