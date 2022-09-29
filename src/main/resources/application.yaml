@@ -7,7 +7,12 @@ spring:
       driver-class-name: org.mariadb.jdbc.Driver
       username: ###
       password: ###
+  jpa: 
+    hibernate:
+      ddl-auto: create
+    show-sql: true
 
 logging:
   level:
     root: info
+    '[kr.co.bluezine.monitoring]': debug
